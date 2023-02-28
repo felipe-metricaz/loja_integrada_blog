@@ -4,12 +4,13 @@
     }
 }
 .container {
-    max-width: 1400px;
+    max-width: 1140px;
 }
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
     border-bottom: 1px solid #1db4c1;
     box-shadow: 0 1px 0 0 #1db4c1;  
 }
+.flex-me{ display: flex }
 .block-me{ display: block; }
 .fix-margin:before,.fix-margin:after{ content: ''; display: block; height: 1px; }
 .no-margin{ margin: 0; }
@@ -17,27 +18,51 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 .text-justfy { text-align: justify; }
 .btn, .btn-large, .btn-small{
     text-transform: initial;
-    background-color: #1db4c1;
+    background-color: #371e56;
     box-shadow: none;
 }
 .btn:hover, .btn-large:hover, .btn-small:hover{
-    background-color: #000;
+    background-color: #371e56;
     color: #FFF !important;
     box-shadow: none;
 }
+/*colors*/
+.li-grey{
+    background-color: #f9f9f9 !important;
+}
+.li-roxo{
+    background-color: #371e56 !important;
+}
+.li-roxo-text{
+    color: #371e56 !important;
+}
+
+
+
 .site-header {
     display: flex;
     align-items: center;
-    margin: 20px auto;
+    margin: 0px auto;
+    min-height: 72px;
 }
+.custom-logo{
+    max-width: 230px;
+}
+.site-header h1 {
+    margin: 0px;
+}
+
 nav{
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
     color: #111;
-    background-color: #FFF;
+    background-color: #f9f9f9;
     box-shadow: none;
 }
 nav a, nav ul a, nav a:hover, nav ul a:hover,nav label{
-    color: #111;
-    font-weight: 600;
+    color: #371e56;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: transparent;
 }
 
 nav input[type=search], nav input[type=search]:focus{

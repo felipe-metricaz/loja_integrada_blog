@@ -9,7 +9,8 @@
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.0' );
+	//define( '_S_VERSION', '1.0.0' );
+	define( '_S_VERSION', rand(0,1000) );
 }
 
 /**
@@ -128,7 +129,7 @@ add_action( 'widgets_init', 'loja_integrada_blog_widgets_init' );
  */
 function loja_integrada_blog_scripts() {
 	// google-fonts
-	wp_enqueue_style( 'google-fonts-style-css', 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;wght@600&display=swap', array() );
+	wp_enqueue_style( 'google-fonts-style-css', 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap', array() );
 	wp_enqueue_style( 'google-fonts-style-poppins', 'https://fonts.googleapis.com/css2?family=Material+Icons&display=swap', array() );
 	wp_style_add_data( 'google-fonts-googleapis', 'rel', 'stylesheet' );
 
@@ -152,6 +153,30 @@ function loja_integrada_blog_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'loja_integrada_blog_scripts' );
+
+function webp_upload_mimes( $existing_mimes ) {
+    // add webp to the list of mime types
+    $existing_mimes['webp'] = 'image/webp';
+    // return the array back to the function with our added mime type
+    return $existing_mimes;
+}
+add_filter( 'mime_types', 'webp_upload_mimes' );
+//** * Enable preview / thumbnail for webp image files.*/
+function webp_is_displayable($result, $path) {
+    if ($result === false) {
+        $displayable_image_types = array( IMAGETYPE_WEBP );
+        $info = @getimagesize( $path );
+        if (empty($info)) {
+            $result = false;
+        } elseif (!in_array($info[2], $displayable_image_types)) {
+            $result = false;
+        } else {
+            $result = true;
+        }
+    }
+    return $result;
+}
+add_filter('file_is_displayable_image', 'webp_is_displayable', 10, 2);
 
 /**
  * Implement the Custom Header feature.
