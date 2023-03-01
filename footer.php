@@ -167,7 +167,7 @@ footer .row{
 
 	
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
 	
 	footer .row, footer .col{
 		display: grid;
@@ -194,6 +194,7 @@ footer .row{
 
 	.logo-footer{
 		margin: 20px;
+		max-width: 70%;
 	}
 
 	.s4 p{
