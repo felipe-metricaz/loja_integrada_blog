@@ -27,7 +27,7 @@
 
 	<header id="masthead" class="site-header li-grey">
 		<div class="row container no-margin-bottom">
-			<div class="site-branding col s4">
+			<div class="site-branding col s4 no-padding">
 				<?php
 				if ( is_front_page() && is_home() ) :
 					?>
@@ -35,13 +35,13 @@
 					<?php
 				else :
 					?>
-					<p class="site-title no-margin"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php the_custom_logo(); ?></a></p>
+					<p class="site-title"><?php the_custom_logo(); ?></p>
 					<?php
 				endif;
 				 ?>
 			</div><!-- .site-branding -->
 
-			<nav id="site-navigation" class="main-navigation li-roxo-text col s8">
+			<nav id="site-navigation" class="main-navigation li-roxo-text col s7">
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'loja_integrada_blog' ); ?></button>
 				<div class="flex-me">
 					<?php
@@ -53,9 +53,16 @@
 					);
 					?>
 					<div>
-						<a href="#" class="btn">Criar loja</a>
+						<a href="https://criar.lojaintegrada.com.br/tudo-sobre" target="_blank" class="btn white-text">Criar loja</a>
 					</div>
 				</div>
 			</nav><!-- #site-navigation -->
+			<div class="site-search col s1">
+				<a class="li-roxo-text" href="#"><i class="material-icons">search</i></a>
+				<form action="" method="get" class="search-form" target="top">
+					<input name="s" class="browser-default" placeholder="Procurar..." type="search" value="" autocomplete="off">
+					<button aria-label="Search Button" type="submit" class="search-form-button"><i class="material-icons">search</i></button>
+				</form>
+			</div>
 		</div>
 	</header><!-- #masthead -->
