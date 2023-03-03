@@ -132,6 +132,8 @@ function loja_integrada_blog_scripts() {
 	wp_enqueue_style( 'google-fonts-style-css', 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap', array() );
 	wp_enqueue_style( 'google-fonts-style-poppins', 'https://fonts.googleapis.com/css2?family=Material+Icons&display=swap', array() );
 	wp_style_add_data( 'google-fonts-googleapis', 'rel', 'stylesheet' );
+	wp_enqueue_style( 'font-awesome-icons', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', array() );
+
 
 	wp_enqueue_style( 'loja_integrada_blog-materialize', get_template_directory_uri(). '/css/materialize.min.css', array(), _S_VERSION );
 	wp_enqueue_style( 'loja_integrada_blog-style', get_stylesheet_uri(), array('loja_integrada_blog-materialize'), _S_VERSION );

@@ -60,6 +60,13 @@
 			</nav><!-- #site-navigation -->
 			
 			<div class="sidenav" id="mobile-nav">
+				<div class="site-search-mobile">
+					<form action="" method="get" class="search-form" target="top">
+						<input name="s" class="browser-default" placeholder="Procurar..." type="search" value="" autocomplete="off">
+						<button aria-label="Search Button" type="submit" class="search-form-button"><i class="material-icons">search</i></button>
+					</form>
+				</div>
+				<div class="divider"></div>
 				<?php
 				wp_nav_menu(
 					array(
@@ -68,6 +75,13 @@
 					)
 				);
 				?>
+				<div class="footer-mobile-nav flex-me">
+					<a class="li-roxo-text" target="_blank" href="https://pt-br.facebook.com/lojaintegrada/"><i class="fa fa-facebook-square"></i></a>
+					<a class="li-roxo-text" target="_blank" href="https://twitter.com/lojaintegrada"><i class="fa fa-twitter"></i></a>
+					<a class="li-roxo-text" target="_blank" href="https://www.instagram.com/lojaintegrada/"><i class="fa fa-instagram"></i></a>
+					<a class="li-roxo-text" target="_blank" href="https://www.youtube.com/c/LojaIntegradaBR-loja-virtual"><i class="fa fa-youtube-play"></i></a>
+					<a class="li-roxo-text" target="_blank" href="https://www.linkedin.com/company/loja-integrada/"><i class="fa fa-linkedin"></i></a>
+				</div>
 			</div>
 
 			<div class="site-search col s2 m1">
