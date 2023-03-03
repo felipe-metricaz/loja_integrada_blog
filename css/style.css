@@ -58,6 +58,9 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
     font-weight: 600;
     font-size: 16px;
 }
+.mobile-nav-icon, .mobile-nav-icon a{
+    line-height: 72px;
+}
 .site-header .btn:hover {
     font-weight: 600;
     font-size: 16px;
@@ -173,16 +176,60 @@ nav{
     font-weight: normal;
     text-rendering: auto;
 }
-nav input[type=search], nav input[type=search]:focus{
-    border-bottom: none !important;
-    box-shadow: none !important;
+#mobile-nav { z-index: 99999999; }
+#mobile-nav .mobile-nav-ul {
+    padding: 20px;
 }
-nav .dropdown-content{
-    left: 50% !important;
-    width: 200px !important;
+#mobile-nav .mobile-nav-ul > li > a{
+    color: #212121;
+    margin-bottom: 15px;
+    display: block;
+    font-size: 18px;
+    line-height: 1.444em;
+    font-weight: 700;
+    position: relative;
+    padding: 0;
+    height: auto;
 }
-nav .dropdown-content li>a, nav .dropdown-content li>span{
-    color: #000;
+#mobile-nav .menu-item-has-children:not(.open) .sub-menu{
+    max-height: 0;
+    transition: max-height 0.1s linear;
+}
+#mobile-nav li>a:hover {
+    background: #fff;
+}
+#mobile-nav .sub-menu{
+    display: block;
+    overflow: hidden;
+    max-height: 1000px;
+    margin: 0;
+    background: #fff;
+    transition: max-height 5s linear;
+}
+#mobile-nav .sub-menu a{
+    height: auto;
+    color: #757575;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 12px;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+}
+#mobile-nav .menu-item-has-children > a:after{
+    position: absolute;
+    top: 0;
+    right: 9px;
+    color: #a0a0a0;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 0;
+    color: #a0a0a0;
+    content: "keyboard_arrow_right";
+    font-family: 'Material Icons';
+    font-size: 28px;
+    font-weight: 100; 
+    line-height: 1;
 }
 
 

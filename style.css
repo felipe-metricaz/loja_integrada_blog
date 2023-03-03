@@ -660,6 +660,7 @@ textarea {
 }
 
 .main-navigation ul ul {
+	background: #fff;
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
 	position: absolute;

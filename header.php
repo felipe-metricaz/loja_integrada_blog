@@ -27,7 +27,8 @@
 
 	<header id="masthead" class="site-header li-grey">
 		<div class="row container no-margin-bottom">
-			<div class="site-branding col s4 no-padding">
+			<div class="mobile-nav-icon col s2 hide-on-med-and-up"><a href="#" data-target="mobile-nav" class="sidenav-trigger li-roxo-text"><i class="material-icons">menu</i></a></div>
+			<div class="site-branding col s8 m4 no-padding">
 				<?php
 				if ( is_front_page() && is_home() ) :
 					?>
@@ -41,7 +42,7 @@
 				 ?>
 			</div><!-- .site-branding -->
 
-			<nav id="site-navigation" class="main-navigation li-roxo-text col s7">
+			<nav id="site-navigation" class="hide-on-small-only	main-navigation li-roxo-text col s7">
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'loja_integrada_blog' ); ?></button>
 				<div class="flex-me">
 					<?php
@@ -57,7 +58,19 @@
 					</div>
 				</div>
 			</nav><!-- #site-navigation -->
-			<div class="site-search col s1">
+			
+			<div class="sidenav" id="mobile-nav">
+				<?php
+				wp_nav_menu(
+					array(
+						'theme_location' => 'menu-1',
+						'menu_class'     => 'mobile-nav-ul no-margin',
+					)
+				);
+				?>
+			</div>
+
+			<div class="site-search col s2 m1">
 				<a class="li-roxo-text" href="#"><i class="material-icons">search</i></a>
 				<form action="" method="get" class="search-form" target="top">
 					<input name="s" class="browser-default" placeholder="Procurar..." type="search" value="" autocomplete="off">
