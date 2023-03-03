@@ -15,7 +15,7 @@
 
 <div class="container">
  <div class="row flex-me">
-  	<div class="col s4">
+  	<div class="col s12 m3">
 		<img class="logo-footer" src="https://blog.lojaintegrada.com.br/wp-content/uploads/2022/03/Logo_Blog_Fundo-Branco-1-1-1024x124.png.webp" alt="Logo Loja Integrada">
 		<p>Feita por quem ama tecnologia, gente e lojas virtuais 💚</p>
 		<div class="footer-selos">
@@ -23,7 +23,7 @@
 			<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/03/selo-premio-ecommercebrasil_2.png" alt="Prêmio e-commerce Brasil">
 		</div>
 	</div>
-	<div class="col s2">
+	<div class="col s12 m2">
 		<h6>Institucional</h6>
 		<ul>
 			<li>
@@ -46,7 +46,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="col s2">
+	<div class="col s12 m2">
 		<h6>Aprenda</h6>
 		<ul>
 			<li>
@@ -66,7 +66,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="col s2">
+	<div class="col s12 m2">
 		<h6>Serviços</h6>
 		<ul>
 			<li>
@@ -84,7 +84,7 @@
 		</ul>
 
 	</div>
-	<div class="col s2">
+	<div class="col s12 m2">
 		<h6>Carreiras</h6>
 		<ul>
 			<li>
@@ -121,11 +121,6 @@ footer .row{
     left: 0;
     background: linear-gradient(180deg,rgba(0,0,0,.15) 0,transparent);
 }
-
-	footer .s4{
-		width: 25% !important;
-		margin-right: 100px;
-	}
 
 	.footer-selos{
 		display: flex;
@@ -169,13 +164,9 @@ footer .row{
 
 @media only screen and (max-width: 767px){
 	
-	footer .row, footer .col{
-		display: grid;
-	}
-	
+	footer .row, 
 	footer .col{
-		width: 100% !important;
-		margin: 0px;
+		display: grid;
 	}
 
 	footer .s4{
@@ -197,7 +188,7 @@ footer .row{
 		max-width: 70%;
 	}
 
-	.s4 p{
+	footer .s4 p{
 		margin: 35px 10px;
   	    text-align: center;
 	}
