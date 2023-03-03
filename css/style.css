@@ -14,7 +14,9 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 .block-me{ display: block; }
 .fix-margin:before,.fix-margin:after{ content: ''; display: block; height: 1px; }
 .no-margin{ margin: 0; }
-.no-padding{ padding: 0; }
+.no-padding{ padding: 0 !important; }
+.no-padding-left{ padding-left: 0  !important; }
+.no-padding-right{ padding-right: 0  !important; }
 .no-margin-bottom { margin-bottom: 0; }
 .text-justfy { text-align: justify; }
 .btn, .btn-large, .btn-small{
@@ -268,12 +270,31 @@ nav{
     font-size: 24px;
 }
 
-.slider .indicators{
-    bottom: 10px;
+
+/*HOME*/
+.title-label{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 20px;
+    line-height: 36px;
+    background-color: #371e56;
+    color: #fff;
 }
-.slider .indicators .indicator-item.active{
-    background-color: #1db4c1;
+.title-label + .divider{
+    margin-bottom: 20px;
+    height: 2px;
+    background-color: #eee;
 }
+.gallery-thumbnail h2{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
 #breadcrumbs, #breadcrumbs a, #breadcrumbs strong{ 
     font-size: 12px;
     line-height: 18px;
