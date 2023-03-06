@@ -164,14 +164,6 @@ footer .row{
 
 @media only screen and (max-width: 767px){
 	
-	footer .row, 
-	footer .col{
-		display: grid;
-	}
-
-	footer .s4{
-		justify-items: center;
-	}
 
 	.footer-selos{
 		display: grid;
@@ -188,10 +180,6 @@ footer .row{
 		max-width: 70%;
 	}
 
-	footer .s4 p{
-		margin: 35px 10px;
-  	    text-align: center;
-	}
 
 }
 
