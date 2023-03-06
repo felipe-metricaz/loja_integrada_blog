@@ -14,7 +14,7 @@
 	<footer id="colophon" class="site-footer li-grey">
 
 <div class="container">
- <div class="row flex-me">
+ <div class="row">
   	<div class="col s12 m3">
 		<img class="logo-footer" src="https://blog.lojaintegrada.com.br/wp-content/uploads/2022/03/Logo_Blog_Fundo-Branco-1-1-1024x124.png.webp" alt="Logo Loja Integrada">
 		<p>Feita por quem ama tecnologia, gente e lojas virtuais 💚</p>
@@ -105,83 +105,6 @@
 
 <style>
 
-/* Footer styles */
-
-footer .row{
-	padding-top: 54px;
-    margin: 0px;
-}
-
-.site-footer::before{
-	content: "";
-    width: 100%;
-    height: 7px;
-    position: absolute;
-    z-index: 2;
-    left: 0;
-    background: linear-gradient(180deg,rgba(0,0,0,.15) 0,transparent);
-}
-
-	.footer-selos{
-		display: flex;
-  	    justify-content: space-evenly;
-	}
-
-	.footer-selos img{
-		max-width: 100px;
-	}
-
-	footer .s2{
-		width: 15% !important;
-	}
-
-	footer h6,
-	footer li{
-		margin: 0px 0px 24px 0px;
-	}
-
-	footer ul{
-		padding: 0px 0px 1px 0px;
-		margin: 0px 0px 20px 0px;
-	}
-
-	footer h6{
-		color: #371e56;
-		font-size: 18px;
-    	font-weight: 600;
-	}
-
-	footer a,
-	footer p{
-		color: #463758 !important;
-		font-size: 14px;
-		-webkit-transition: all .3s;
-		-o-transition: all .3s;
-		transition: all .3s;
-	}
-
-	
-
-@media only screen and (max-width: 767px){
-	
-
-	.footer-selos{
-		display: grid;
-		justify-items: center;
-		margin-bottom: 50px;
-	}
-
-	.footer-selos img{
-		margin: 10px;
-	}
-
-	.logo-footer{
-		margin: 20px;
-		max-width: 70%;
-	}
-
-
-}
 
 /* End footer Styles */
 
