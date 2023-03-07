@@ -92,7 +92,7 @@
         transition: .2s;
     }
 
-    .gallery-post-info h4{
+    .gallery-post-info h4 a{
         font-size: 16px;
         color: #371e56;
         font-weight: 700;
