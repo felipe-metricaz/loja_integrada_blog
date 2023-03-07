@@ -72,10 +72,6 @@
     }
 
     .post-category{
-        position: relative;
-        z-index: 3;
-        bottom: 35px;
-        left: 10px;
         margin: 0;
         line-height: 1;
     }
