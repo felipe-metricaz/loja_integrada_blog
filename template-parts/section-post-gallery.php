@@ -8,9 +8,13 @@
                     <a href="">
                             <img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/11/Ideias-criativas-de-nomes-para-loja-de-roupas-360x180.webp" alt="">
                     </a>
-                  <div class="post-category">
-                    <a href="">Category</a>
-                  </div>
+                 
+                    <div class="over-legend">
+                        <div class="post-category">
+                            <a href="">Category</a>
+                        </div>
+                    </div>
+                    
                 </div>
 
                 <div class="gallery-post-info">
@@ -29,9 +33,13 @@
                     <a href="">
                             <img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/11/Ideias-criativas-de-nomes-para-loja-de-roupas-360x180.webp" alt="">
                     </a>
-                  <div class="post-category">
-                    <a href="">Category</a>
-                  </div>
+                 
+                    <div class="over-legend">
+                        <div class="post-category">
+                            <a href="">Category</a>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="gallery-post-info">
@@ -50,9 +58,12 @@
                     <a href="">
                             <img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/11/Ideias-criativas-de-nomes-para-loja-de-roupas-360x180.webp" alt="">
                     </a>
-                  <div class="post-category">
-                    <a href="">Category</a>
-                  </div>
+                 
+                    <div class="over-legend">
+                        <div class="post-category">
+                            <a href="">Category</a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="gallery-post-info">
@@ -93,7 +104,6 @@
         font-size: 14px;
         font-weight: 700;
         line-height: 1.4;
-        margin: 5px 0px;
     }
 
     .gallery-post-info a{
