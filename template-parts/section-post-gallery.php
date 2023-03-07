@@ -70,9 +70,6 @@
 </div>
 
 <style>
-    .gallery-thumbnail {
-        margin-bottom: -20px;
-    }
 
     .gallery-thumbnail img{
         border-radius: 6px;
