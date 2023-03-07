@@ -16,7 +16,7 @@
                         <a href="">Ideias criativas de nomes para loja de roupas</a>
                     </h4>
                     <div class="gallery-post-data">
-                       <a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="material-icons">access_time</i> 1 de dezembro de 2022</a>
+                       <a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="tiny material-icons">access_time</i> 1 de dezembro de 2022</a>
                     </div>
                 </div>
            </article>
@@ -37,7 +37,7 @@
                         <a href="">Ideias criativas de nomes para loja de roupas</a>
                     </h4>
                     <div class="gallery-post-data">
-                       <a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="material-icons">access_time</i> 1 de dezembro de 2022</a>
+                       <a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="tiny material-icons">access_time</i> 1 de dezembro de 2022</a>
                     </div>
                 </div>
            </article>
