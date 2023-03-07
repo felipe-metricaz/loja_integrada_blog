@@ -1,4 +1,6 @@
 <div class="container">
+    <h2 class="title-label">Queridinhos do momento</h2>
+    <div class="divider"></div>
     <div class="row">
         <div class="col s12 m4">
            <article>
@@ -12,11 +14,11 @@
                 </div>
 
                 <div class="gallery-post-info">
-                    <h4>
+                    <h4 >
                         <a href="">Ideias criativas de nomes para loja de roupas</a>
                     </h4>
                     <div class="gallery-post-data">
-                       <a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="material-icons">access_time</i> 1 de dezembro de 2022</a>
+                       <a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="tiny material-icons">access_time</i> 1 de dezembro de 2022</a>
                     </div>
                 </div>
            </article>
@@ -33,11 +35,11 @@
                 </div>
 
                 <div class="gallery-post-info">
-                    <h4>
+                    <h4 >
                         <a href="">Ideias criativas de nomes para loja de roupas</a>
                     </h4>
                     <div class="gallery-post-data">
-                       <a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="material-icons">access_time</i> 1 de dezembro de 2022</a>
+                       <a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="tiny material-icons">access_time</i> 1 de dezembro de 2022</a>
                     </div>
                 </div>
            </article>
@@ -54,19 +56,24 @@
                 </div>
 
                 <div class="gallery-post-info">
-                    <h4>
+                    <h4 >
                         <a href="">Ideias criativas de nomes para loja de roupas</a>
                     </h4>
                     <div class="gallery-post-data">
-                       <a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="material-icons">access_time</i> 1 de dezembro de 2022</a>
+                       <a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="tiny material-icons">access_time</i> 1 de dezembro de 2022</a>
                     </div>
                 </div>
            </article>
         </div>
     </div>
+   
 </div>
 
 <style>
+    .gallery-thumbnail {
+        margin-bottom: -20px;
+    }
+
     .gallery-thumbnail img{
         border-radius: 6px;
     }
@@ -77,22 +84,23 @@
     }
 
     .post-category a{
-        display: inline-block;
         font-size: 11px;
         color: #fff;
-        margin-right: 5px;
         padding: 3px 6px;
         background: #371e56;
         text-transform: uppercase;
         letter-spacing: 1px;
-        transition: .2s;
     }
 
-    .gallery-post-info h4 a{
-        font-size: 16px;
-        color: #371e56;
+    .gallery-post-info h4{
+        font-size: 14px;
         font-weight: 700;
         line-height: 1.4;
+        margin: 5px 0px;
+    }
+
+    .gallery-post-info a{
+        color: #551a8b;
     }
 
     .gallery-post-data a{
