@@ -464,15 +464,31 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
 
 
 /*JORNADA*/
-.section-jornada{
-    
-}
 .section-jornada .gallery-thumbnail{
-    height: 370px;
+    height: 350px;
 }
+@media only screen and (max-width: 600px){
+    .section-jornada .gallery-thumbnail{
+        height: 183px;
+        margin-bottom: 13px;
+    }
+
+}
+.section-jornada .col{
+    padding: 0;
+}
+@media only screen and ((min-width: 601px) or (min-width: 993px)) {
+    .section-jornada .col:first-child .gallery-thumbnail {
+        clip-path: polygon(0 0, 100% 0%, calc(100% - 32px) 100%, 0% 100%);
+    }
+    .section-jornada .col:last-of-type .gallery-thumbnail {
+        clip-path: polygon(calc(0% + 32px) 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+
 .section-jornada article .gallery-thumbnail img {
-    max-width: 110%;
-    margin-left: -10%;
+    max-width: 116%;
+    margin-left: -16%;
     transition: margin-left 0.5s ease-out;
 }
 .section-jornada article .gallery-thumbnail:hover img {
@@ -489,6 +505,11 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
     z-index: 2;
 }
 
+
+
+
+
+/*FIM?*/
 
 
 

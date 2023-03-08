@@ -2,7 +2,7 @@
 <section class="container section-jornada">
     <h2 class="li-roxo-text">Jornadas de aprendizado especiais para você</h2>
     <div class="row">
-        <div class="col s12 m6 no-padding-left">
+        <div class="col s12 m6">
             <article>
                 <div class="gallery-thumbnail">
                     <a href="#">
@@ -17,7 +17,7 @@
                 </div>
             </article>
         </div>
-        <div class="col s12 m6 no-padding-right">
+        <div class="col s12 m6">
             <article>
                 <div class="gallery-thumbnail">
                     <a href="#">
