@@ -1,4 +1,5 @@
-<div class="container">
+<div class="container section-materiais">
+<h2 class="title-label">Materiais mais baixados</h2>
     <div class="row">
         <div class="carousel">
             <a class="carousel-item" href="#one!"><img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/assistente-ecommerce-auxiliar-750x592.webp"></a>
@@ -13,6 +14,9 @@
     
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems);
+    var instances = M.Carousel.init(elems,
+    {
+        fullWidth: false
+    });
   });
 </script>
