@@ -1,14 +1,22 @@
 @media only screen and ((min-width: 601px) or (min-width: 993px)) {
     .container {
         width: 95% !important;
+        max-width: 1140px;
     }
 }
-.container {
-    max-width: 1140px;
+@media only screen and (max-width: 600px){
+    .container {
+        width: 95% !important;
+    }
 }
+
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
     border-bottom: 1px solid #1db4c1;
     box-shadow: 0 1px 0 0 #1db4c1;  
+}
+h2{
+    font-size: 1.953em;
+    font-weight: bold;
 }
 .flex-me{ display: flex }
 .block-me{ display: block; }
@@ -402,8 +410,31 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
         font-weight: 700;
     }
 }
-
-
+/*JORNADA*/
+.section-jornada{
+    
+}
+.section-jornada .gallery-thumbnail{
+    height: 370px;
+}
+.section-jornada article .gallery-thumbnail img {
+    max-width: 110%;
+    margin-left: -10%;
+    transition: margin-left 0.5s ease-out;
+}
+.section-jornada article .gallery-thumbnail:hover img {
+    margin-left: 0;
+}
+.section-jornada article .gallery-thumbnail:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background: linear-gradient(180deg,transparent 0,#000 65%,#000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000",endColorstr="#000000",GradientType=0);
+    opacity: .6;
+    z-index: 2;
+}
 
 
 

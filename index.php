@@ -21,6 +21,8 @@ get_header();
 
 		<?php get_template_part( 'template-parts/section', 'post-gallery'); ?>
 
+        <?php get_template_part( 'template-parts/section', 'jornada'); ?>
+
 	</main><!-- #main -->
 
 <?php
