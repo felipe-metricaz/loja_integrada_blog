@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container section-queridinhos">
     <h2 class="title-label">Queridinhos do momento</h2>
     <div class="divider"></div>
     <div class="row no-padding-left no-padding-right">
@@ -157,6 +157,10 @@
 </div>
 
 <style>
+
+    .section-queridinhos article {
+        padding-bottom: 40px;
+    }
 
     .gallery-thumbnail img{
         border-radius: 6px;
