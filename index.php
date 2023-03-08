@@ -19,7 +19,9 @@ get_header();
 
 		<?php get_template_part( 'template-parts/section', 'hero'); ?>
 
-		<?php get_template_part( 'template-parts/section', 'post-gallery'); ?>
+		<?php get_template_part( 'template-parts/section', 'queridinhos'); ?>
+		
+		<?php get_template_part( 'template-parts/section', 'materiais'); ?>
 
         <?php get_template_part( 'template-parts/section', 'jornada'); ?>
 
