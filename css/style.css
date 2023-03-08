@@ -19,6 +19,7 @@ h2{
     font-weight: bold;
 }
 .flex-me{ display: flex }
+.space-between{ justify-content: space-between; }
 .block-me{ display: block; }
 .fix-margin:before,.fix-margin:after{ content: ''; display: block; height: 1px; }
 .no-margin{ margin: 0; }
@@ -505,6 +506,31 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
     z-index: 2;
 }
 
+/*all content*/
+.section-all-content .col{
+    min-height: 128px;
+    padding-left: 0;
+}
+.section-all-content .gallery-post-info{
+    max-width: 230px;
+}
+.section-all-content .gallery-post-info h4{
+    margin-top: 0;
+    font-size: 18px;    
+}
+.nav-row:after, .nav-row:before {
+    content: "";
+    width: 50%;
+    height: 1px;
+    position: absolute;
+    border-bottom: 1px solid #eee;
+    left: -40px;
+    top: 50%;
+}
+.nav-row:after {
+    right: -40px;
+    left: auto;
+}
 
 
 

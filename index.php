@@ -25,6 +25,8 @@ get_header();
 
         <?php get_template_part( 'template-parts/section', 'jornada'); ?>
 
+        <?php get_template_part( 'template-parts/section', 'all-content-ajax'); ?>
+
 	</main><!-- #main -->
 
 <?php
