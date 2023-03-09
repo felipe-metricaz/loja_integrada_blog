@@ -14,7 +14,7 @@
                                 </div>
                                 <h2><a class="white-text" href="#">Como montar um ecommerce: Dicas para 2023</a></h2>
                                 <div class="post-meta">
-                                    POR <a href="#">RAPHAEL SPAGNUOLO</a> <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
+                                    <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +30,7 @@
                                 </div>
                                 <h2><a class="white-text" href="#">Como montar um ecommerce: Dicas para 2023</a></h2>
                                 <div class="post-meta">
-                                    POR <a href="#">RAPHAEL SPAGNUOLO</a> <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
+                                   <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@
                                 </div>
                                 <h2><a class="white-text" href="#">Como montar um ecommerce: Dicas para 2023</a></h2>
                                 <div class="post-meta">
-                                    POR <a href="#">RAPHAEL SPAGNUOLO</a> <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
+                                   <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
                                 </div>
                             </div>
                         </div>
