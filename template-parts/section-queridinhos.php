@@ -1,4 +1,4 @@
-<div class="container section-queridinhos">
+<section class="container section-queridinhos">
     <h2 class="title-label">Queridinhos do momento</h2>
     <div class="divider"></div>
     <div class="row no-padding-left no-padding-right">
@@ -160,4 +160,4 @@
         </a>
     </div>
 
-</div>
+</section>
