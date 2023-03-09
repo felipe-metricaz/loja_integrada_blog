@@ -1,4 +1,14 @@
 ( function( $ ) {
+
+	$( window ).scroll(function() {
+		var aTop = $('.site-header').height();
+		if($(this).scrollTop()>=aTop){
+			$('.site-header').addClass('fixed');
+		} else {
+			$('.site-header').removeClass('fixed');
+		}
+	});
+
 	$('.slider').slider({
 		'height': 442
 	});
@@ -31,21 +41,17 @@
 			dist: 0,
 			noWrap: false
 		});
-	  });
+	});
 	
 	
 	
-	  $('i#prev-materiais').click(function() {
+	$('i#prev-materiais').click(function() {
 		$('.carousel').carousel('prev');
 	});
 	
-		$('i#next-materiais').click(function() {
+	$('i#next-materiais').click(function() {
 		$('.carousel').carousel('next');
 	});
-
-
-
-
 
 
 }( jQuery ) );

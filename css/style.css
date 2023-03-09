@@ -54,9 +54,18 @@ h2{
 
 .site-header {
     display: flex;
+    top: -100px;
     align-items: center;
     margin: 0px auto;
     min-height: 72px;
+    transition: top .5s linear;
+}
+.site-header.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    width: 100%;
+    box-shadow: 0px 8px 20px -18px rgb(0 0 0 / 60%);
 }
 .custom-logo{
     max-width: 230px;
