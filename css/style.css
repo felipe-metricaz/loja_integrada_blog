@@ -518,6 +518,11 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
     margin-top: 0;
     font-size: 18px;    
 }
+.nav-row{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
 .nav-row:after, .nav-row:before {
     content: "";
     width: 50%;
@@ -530,6 +535,32 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
 .nav-row:after {
     right: -40px;
     left: auto;
+}
+.nav-row a {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 28px;
+    width: 30px;
+    height: 28px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    color: #212121;
+    background: #fff;
+    transition: .2s ease;
+}
+.nav-row a.disabled {
+    cursor: default;
+    color: #a0a0a0;
+    border-color: #eee;
+}
+.nav-row .prev {
+    margin-right: 2px;
+}
+.nav-row i.material-icons{
+    line-height: 27px;
+    font-size: 16px;
 }
 
 

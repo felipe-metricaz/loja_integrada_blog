@@ -1,4 +1,4 @@
-<div class="container section-all-content">
+<section class="container section-all-content">
     <h2 class="title-label">Todos os conteúdos</h2>
     <div class="divider"></div>
     <div class="row no-padding-left no-padding-right">
@@ -171,4 +171,9 @@
             <a href="#" class="next" title="Próximo"><i class=" material-icons">chevron_right</i></a>
         </div>
     </div>
-</div>
+    <div class="row center-align">
+        <a href="">
+            <img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/03/curso-primeiros-passos-1024x171.png" alt="">
+        </a>
+    </div>
+</section>
