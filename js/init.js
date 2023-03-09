@@ -39,7 +39,8 @@
 			fullWidth: false,
 			numVisible: 3,
 			dist: 0,
-			noWrap: false
+			noWrap: false,
+			shift: 30
 		});
 	});
 	

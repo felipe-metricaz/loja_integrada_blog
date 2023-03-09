@@ -14,7 +14,7 @@
                                 </div>
                                 <h2><a class="white-text" href="#">Como montar um ecommerce: Dicas para 2023</a></h2>
                                 <div class="post-meta">
-                                    POR <a href="#">RAPHAEL SPAGNUOLO</a> <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
+                                    <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +30,7 @@
                                 </div>
                                 <h2><a class="white-text" href="#">Como montar um ecommerce: Dicas para 2023</a></h2>
                                 <div class="post-meta">
-                                    POR <a href="#">RAPHAEL SPAGNUOLO</a> <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
+                                   <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@
                                 </div>
                                 <h2><a class="white-text" href="#">Como montar um ecommerce: Dicas para 2023</a></h2>
                                 <div class="post-meta">
-                                    POR <a href="#">RAPHAEL SPAGNUOLO</a> <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
+                                   <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
                                 </div>
                             </div>
                         </div>
@@ -61,8 +61,11 @@
 
 <style>
 
-    .section-materiais{
+    .section-materiais .container{
         position: relative;
+    }
+  
+    .section-materiais{
         background-color: #f0f3f4;
     }
 
@@ -87,6 +90,7 @@
         position: absolute;
         bottom: 95px;
         width: 100%;
+        padding: 0px 15px;
     }
 
     .section-materiais .carousel-item{
@@ -104,6 +108,8 @@
 
     .section-materiais .carousel-nav i{
         cursor: pointer;
+        color: #fff;
+        border: 2px solid #fff;
     }
 
 </style>
