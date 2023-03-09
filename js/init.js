@@ -20,6 +20,35 @@
 		});
 	});
 
+
+
+	document.addEventListener('DOMContentLoaded', function() {
+		var elems = document.querySelectorAll('.carousel');
+		var instances = M.Carousel.init(elems,
+		{
+			fullWidth: false,
+			numVisible: 3,
+			dist: 0,
+			noWrap: false
+		});
+	  });
+	
+	
+	
+	  $('i#prev-materiais').click(function() {
+		$('.carousel').carousel('prev');
+	});
+	
+		$('i#next-materiais').click(function() {
+		$('.carousel').carousel('next');
+	});
+
+
+
+
+
+
 }( jQuery ) );
+
 
 
