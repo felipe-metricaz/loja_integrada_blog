@@ -61,8 +61,11 @@
 
 <style>
 
-    .section-materiais{
+    .section-materiais .container{
         position: relative;
+    }
+  
+    .section-materiais{
         background-color: #f0f3f4;
     }
 
@@ -87,6 +90,7 @@
         position: absolute;
         bottom: 95px;
         width: 100%;
+        padding: 0px 15px;
     }
 
     .section-materiais .carousel-item{
@@ -104,6 +108,8 @@
 
     .section-materiais .carousel-nav i{
         cursor: pointer;
+        color: #fff;
+        border: 2px solid #fff;
     }
 
 </style>
