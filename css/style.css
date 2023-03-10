@@ -453,6 +453,9 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
 
 .gallery-thumbnail img{
     border-radius: 6px;
+}
+
+.section-queridinhos .gallery-thumbnail img{
     width: 100%;
 }
 
