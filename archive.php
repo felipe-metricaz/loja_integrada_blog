@@ -62,6 +62,47 @@ get_header();
 		</section>
 
 
+		<section class="container section-como-vender">
+				<div class="row">
+					<nav>
+						<div class="nav-wrapper">
+							<div class="col s12">
+								<a href="#!" class="breadcrumb">Home</a>
+								<a href="#!" class="breadcrumb">Categoria</a>
+								<a href="#!" class="breadcrumb">Marketing e Vendas</a>
+								<a href="#!" class="breadcrumb">Como vender nas redes sociais</a>
+							</div>
+						</div>
+					</nav>
+				</div>
+		</section>
+
+
+<style>
+	.section-como-vender nav{
+		background-color: #ffffff;
+	}
+
+	.section-como-vender nav .breadcrumb{
+		font-size: 14px;
+		color: black;
+	}
+
+	.section-como-vender nav .breadcrumb::before{
+		font-size: 16px;
+		color: #a0a0a0;
+		vertical-align: middle;
+		margin: 0 5px 0 0px;
+	}
+
+	.section-como-vender nav .breadcrumb:last-child{
+		color: #a0a0a0;
+	}
+
+
+
+</style>
+
 
 	</main><!-- #main -->
 
