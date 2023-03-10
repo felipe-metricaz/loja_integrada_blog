@@ -12,40 +12,58 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-		<?php if ( have_posts() ) : ?>
+		
+		<section class="container section-hero">
+			<h2 class="title-label">Mais recentes</h2>
+			<div class="divider"></div>
+			<div class="row">
+				
+			<div class="col s12 m6 no-padding-left">
+					<article>
+						<div class="gallery-thumbnail shadow">
+							<a href="#">
+								<img class="run" src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/assistente-ecommerce-auxiliar-750x592.webp" alt="">
+							</a>
+							<div class="over-legend">
+								<div class="post-category">
+									<a href="#">Category</a>
+								</div>
+								<h2><a class="white-text" href="#">Como montar um ecommerce: Dicas para 2023</a></h2>
+								<div class="post-meta">
+									POR <a href="#">RAPHAEL SPAGNUOLO</a> <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+		
+				
+			<div class="col s12 m6 no-padding-right">
+					<article>
+						<div class="gallery-thumbnail shadow">
+							<a href="#">
+								<img class="run" src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/assistente-ecommerce-auxiliar-750x592.webp" alt="">
+							</a>
+							<div class="over-legend">
+								<div class="post-category">
+									<a href="#">Category</a>
+								</div>
+								<h2><a class="white-text" href="#">Como montar um ecommerce: Dicas para 2023</a></h2>
+								<div class="post-meta">
+									POR <a href="#">RAPHAEL SPAGNUOLO</a> <i class="material-icons">access_time</i> <a href="#">7 DE MARÇO DE 2023</a>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+		
+			</div>
 
-			<header class="page-header">
-				<?php
-				the_archive_title( '<h1 class="page-title">', '</h1>' );
-				the_archive_description( '<div class="archive-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
+		</section>
 
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
 
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
 
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();
