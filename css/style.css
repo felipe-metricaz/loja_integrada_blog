@@ -3,6 +3,15 @@
         width: 95% !important;
         max-width: 1140px;
     }
+
+   .section-queridinhos .row .col:first-of-type{
+    padding-left: 0px;
+    }
+
+    .section-queridinhos .row .col:last-of-type{
+    padding-right: 0px;
+    }
+
 }
 @media only screen and (max-width: 600px){
     .container {
@@ -444,6 +453,7 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
 
 .gallery-thumbnail img{
     border-radius: 6px;
+    width: 100%;
 }
 
 .post-category{

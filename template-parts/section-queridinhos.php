@@ -1,7 +1,7 @@
 <section class="container section-queridinhos">
     <h2 class="title-label">Queridinhos do momento</h2>
     <div class="divider"></div>
-    <div class="row no-padding-left no-padding-right">
+    <div class="row">
         <div class="col s12 m4">
            <article>
                 <div class="gallery-thumbnail">
@@ -77,7 +77,7 @@
            </article>
         </div>
     </div>
-    <div class="row no-padding-left no-padding-right">
+    <div class="row">
         <div class="col s12 m4">
            <article>
                 <div class="gallery-thumbnail">
