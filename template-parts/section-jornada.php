@@ -4,9 +4,9 @@
     <div class="row">
         <div class="col s12 m6">
             <article>
-                <div class="gallery-thumbnail">
+                <div class="gallery-thumbnail shadow">
                     <a href="#">
-                        <img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/assistente-ecommerce-auxiliar-750x592.webp" alt="">
+                        <img class="run" src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/assistente-ecommerce-auxiliar-750x592.webp" alt="">
                     </a>
                     <div class="over-legend">
                         <h2><a class="white-text" href="#">Ainda não vendi</a></h2>
@@ -19,9 +19,9 @@
         </div>
         <div class="col s12 m6">
             <article>
-                <div class="gallery-thumbnail">
+                <div class="gallery-thumbnail shadow">
                     <a href="#">
-                        <img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/assistente-ecommerce-auxiliar-750x592.webp" alt="">
+                        <img class="run" src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/assistente-ecommerce-auxiliar-750x592.webp" alt="">
                     </a>
                     <div class="over-legend">
                         <h2><a class="white-text" href="#">Quero vender mais</a></h2>
