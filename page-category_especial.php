@@ -22,6 +22,8 @@ get_header();
 		</header>
 		<?php get_template_part( 'template-parts/section', 'hero-page'); ?>
 
+		<?php get_template_part( 'template-parts/section', 'acessados-page'); ?>
+
 	</main><!-- #main -->
 
 <?php
