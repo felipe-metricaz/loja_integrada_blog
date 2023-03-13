@@ -79,12 +79,14 @@ get_header();
 					muito na internet. Redes sociais, anúncios, fotografia, descrição de produtos e muito mais! 
 					Conteúdos para te ajudar a não perder nenhuma venda no seu ecommerce! Leia sem moderação 😉</p>
 				
+
+					
 					<div class="row">
 						<div class="col s12 m4">
 						<article>
 								<div class="gallery-thumbnail">
 									<a href="">
-											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/11/Ideias-criativas-de-nomes-para-loja-de-roupas-360x180.webp" alt="">
+											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/marketing-visual-350x250.webp" alt="">
 									</a>
 								
 									<div class="over-legend">
@@ -99,8 +101,11 @@ get_header();
 									<h4 >
 										<a href="">Ideias criativas de nomes para loja de roupas</a>
 									</h4>
-									<div class="gallery-post-data">
-									<a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="tiny material-icons">access_time</i> 1 de dezembro de 2022</a>
+									<div class="post-meta">
+										<a class="gray">por </a><a href="#">RAPHAEL SPAGNUOLO</a> <i class="tiny material-icons">access_time</i> <a class="gray" href="#">7 DE MARÇO DE 2023</a>
+									</div>
+									<div>
+										<p>O relacionamento com o cliente é a chave para fidelizar e construir uma base sólida de consumidores e fãs. Atualmente,...</p>
 									</div>
 								</div>
 						</article>
@@ -109,7 +114,7 @@ get_header();
 						<article>
 								<div class="gallery-thumbnail">
 									<a href="">
-											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/11/Ideias-criativas-de-nomes-para-loja-de-roupas-360x180.webp" alt="">
+											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/marketing-visual-350x250.webp" alt="">
 									</a>
 								
 									<div class="over-legend">
@@ -124,17 +129,20 @@ get_header();
 									<h4 >
 										<a href="">Ideias criativas de nomes para loja de roupas</a>
 									</h4>
-									<div class="gallery-post-data">
-									<a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="tiny material-icons">access_time</i> 1 de dezembro de 2022</a>
+									<div class="post-meta">
+										<a class="gray">por </a><a href="#">RAPHAEL SPAGNUOLO</a> <i class="tiny material-icons">access_time</i> <a class="gray" href="#">7 DE MARÇO DE 2023</a>
+									</div>
+									<div>
+										<p>O relacionamento com o cliente é a chave para fidelizar e construir uma base sólida de consumidores e fãs. Atualmente,...</p>
 									</div>
 								</div>
 						</article>
-						</div>
+						</div>	
 						<div class="col s12 m4">
 						<article>
 								<div class="gallery-thumbnail">
 									<a href="">
-											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/11/Ideias-criativas-de-nomes-para-loja-de-roupas-360x180.webp" alt="">
+											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/marketing-visual-350x250.webp" alt="">
 									</a>
 								
 									<div class="over-legend">
@@ -148,8 +156,11 @@ get_header();
 									<h4 >
 										<a href="">Ideias criativas de nomes para loja de roupas</a>
 									</h4>
-									<div class="gallery-post-data">
-									<a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="tiny material-icons">access_time</i> 1 de dezembro de 2022</a>
+									<div class="post-meta">
+										<a class="gray">por </a><a href="#">RAPHAEL SPAGNUOLO</a> <i class="tiny material-icons">access_time</i> <a class="gray" href="#">7 DE MARÇO DE 2023</a>
+									</div>
+									<div>
+										<p>O relacionamento com o cliente é a chave para fidelizar e construir uma base sólida de consumidores e fãs. Atualmente,...</p>
 									</div>
 								</div>
 						</article>
@@ -157,8 +168,196 @@ get_header();
 					</div>
 
 
+					<div class="row">
+						<div class="col s12 m4">
+						<article>
+								<div class="gallery-thumbnail">
+									<a href="">
+											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/marketing-visual-350x250.webp" alt="">
+									</a>
+								
+									<div class="over-legend">
+										<div class="post-category">
+											<a href="">Category</a>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="gallery-post-info">
+									<h4 >
+										<a href="">Ideias criativas de nomes para loja de roupas</a>
+									</h4>
+									<div class="post-meta">
+										<a class="gray">por </a><a href="#">RAPHAEL SPAGNUOLO</a> <i class="tiny material-icons">access_time</i> <a class="gray" href="#">7 DE MARÇO DE 2023</a>
+									</div>
+									<div>
+										<p>O relacionamento com o cliente é a chave para fidelizar e construir uma base sólida de consumidores e fãs. Atualmente,...</p>
+									</div>
+								</div>
+						</article>
+						</div>
+						<div class="col s12 m4">
+						<article>
+								<div class="gallery-thumbnail">
+									<a href="">
+											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/marketing-visual-350x250.webp" alt="">
+									</a>
+								
+									<div class="over-legend">
+										<div class="post-category">
+											<a href="">Category</a>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="gallery-post-info">
+									<h4 >
+										<a href="">Ideias criativas de nomes para loja de roupas</a>
+									</h4>
+									<div class="post-meta">
+										<a class="gray">por </a><a href="#">RAPHAEL SPAGNUOLO</a> <i class="tiny material-icons">access_time</i> <a class="gray" href="#">7 DE MARÇO DE 2023</a>
+									</div>
+									<div>
+										<p>O relacionamento com o cliente é a chave para fidelizar e construir uma base sólida de consumidores e fãs. Atualmente,...</p>
+									</div>
+								</div>
+						</article>
+						</div>	
+						<div class="col s12 m4">
+						<article>
+								<div class="gallery-thumbnail">
+									<a href="">
+											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/marketing-visual-350x250.webp" alt="">
+									</a>
+								
+									<div class="over-legend">
+										<div class="post-category">
+											<a href="">Category</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="gallery-post-info">
+									<h4 >
+										<a href="">Ideias criativas de nomes para loja de roupas</a>
+									</h4>
+									<div class="post-meta">
+										<a class="gray">por </a><a href="#">RAPHAEL SPAGNUOLO</a> <i class="tiny material-icons">access_time</i> <a class="gray" href="#">7 DE MARÇO DE 2023</a>
+									</div>
+									<div>
+										<p>O relacionamento com o cliente é a chave para fidelizar e construir uma base sólida de consumidores e fãs. Atualmente,...</p>
+									</div>
+								</div>
+						</article>
+						</div>
+					</div>
+
+
+					<div class="row">
+						<div class="col s12 m4">
+						<article>
+								<div class="gallery-thumbnail">
+									<a href="">
+											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/marketing-visual-350x250.webp" alt="">
+									</a>
+								
+									<div class="over-legend">
+										<div class="post-category">
+											<a href="">Category</a>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="gallery-post-info">
+									<h4 >
+										<a href="">Ideias criativas de nomes para loja de roupas</a>
+									</h4>
+									<div class="post-meta">
+										<a class="gray">por </a><a href="#">RAPHAEL SPAGNUOLO</a> <i class="tiny material-icons">access_time</i> <a class="gray" href="#">7 DE MARÇO DE 2023</a>
+									</div>
+									<div>
+										<p>O relacionamento com o cliente é a chave para fidelizar e construir uma base sólida de consumidores e fãs. Atualmente,...</p>
+									</div>
+								</div>
+						</article>
+						</div>
+						<div class="col s12 m4">
+						<article>
+								<div class="gallery-thumbnail">
+									<a href="">
+											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/marketing-visual-350x250.webp" alt="">
+									</a>
+								
+									<div class="over-legend">
+										<div class="post-category">
+											<a href="">Category</a>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="gallery-post-info">
+									<h4 >
+										<a href="">Ideias criativas de nomes para loja de roupas</a>
+									</h4>
+									<div class="post-meta">
+										<a class="gray">por </a><a href="#">RAPHAEL SPAGNUOLO</a> <i class="tiny material-icons">access_time</i> <a class="gray" href="#">7 DE MARÇO DE 2023</a>
+									</div>
+									<div>
+										<p>O relacionamento com o cliente é a chave para fidelizar e construir uma base sólida de consumidores e fãs. Atualmente,...</p>
+									</div>
+								</div>
+						</article>
+						</div>	
+						<div class="col s12 m4">
+						<article>
+								<div class="gallery-thumbnail">
+									<a href="">
+											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2023/03/marketing-visual-350x250.webp" alt="">
+									</a>
+								
+									<div class="over-legend">
+										<div class="post-category">
+											<a href="">Category</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="gallery-post-info">
+									<h4 >
+										<a href="">Ideias criativas de nomes para loja de roupas</a>
+									</h4>
+									<div class="post-meta">
+										<a class="gray">por </a><a href="#">RAPHAEL SPAGNUOLO</a> <i class="tiny material-icons">access_time</i> <a class="gray" href="#">7 DE MARÇO DE 2023</a>
+									</div>
+									<div>
+										<p>O relacionamento com o cliente é a chave para fidelizar e construir uma base sólida de consumidores e fãs. Atualmente,...</p>
+									</div>
+								</div>
+						</article>
+						</div>
+					</div>
+
+					<div class="row">
+						<ul class="pagination center-align no-margin">
+							<li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+							<li class="active"><a href="#!">1</a></li>
+							<li class="waves-effect"><a href="#!">2</a></li>
+							<li class="waves-effect"><a href="#!">3</a></li>
+							<li class="waves-effect"><a href="#!">4</a></li>
+							<li class="waves-effect"><a href="#!">5</a></li>
+							<li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+						</ul>
+					</div>
+
 				</div>
-		</section>
+		
+				
+
+			</section>
 
 
 <style>
@@ -182,6 +381,15 @@ get_header();
 		color: #a0a0a0;
 	}
 
+	.category-post-cards article .gallery-thumbnail .over-legend {
+		top: 20px;
+	
+	}
+	.category-post-cards article .post-meta {
+		font-size: 11px;
+ 	    text-transform: uppercase;
+		 font-weight: bold;
+	}
 
 
 </style>
