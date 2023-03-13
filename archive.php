@@ -66,7 +66,7 @@ get_header();
 				<div class="row">
 					<nav>
 						<div class="nav-wrapper">
-							<div class="col s12">
+							<div class="col s12 no-padding">
 								<a href="#!" class="breadcrumb">Home</a>
 								<a href="#!" class="breadcrumb">Categoria</a>
 								<a href="#!" class="breadcrumb">Marketing e Vendas</a>
@@ -74,6 +74,12 @@ get_header();
 							</div>
 						</div>
 					</nav>
+				
+				<h2 class="li-roxo-text">Jornadas de aprendizado especiais para você</h2>
+				<p>Tudo o que você precisa saber para conquistar sucesso com sua loja virtual e vender 
+					muito na internet. Redes sociais, anúncios, fotografia, descrição de produtos e muito mais! 
+					Conteúdos para te ajudar a não perder nenhuma venda no seu ecommerce! Leia sem moderação 😉</p>
+				
 				</div>
 		</section>
 
