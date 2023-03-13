@@ -58,11 +58,10 @@ get_header();
 				</div>
 		
 			</div>
-
 		</section>
 
 
-		<section class="container section-como-vender">
+		<section class="container category-post-cards section-queridinhos">
 				<div class="row">
 					<nav>
 						<div class="nav-wrapper">
@@ -80,28 +79,106 @@ get_header();
 					muito na internet. Redes sociais, anúncios, fotografia, descrição de produtos e muito mais! 
 					Conteúdos para te ajudar a não perder nenhuma venda no seu ecommerce! Leia sem moderação 😉</p>
 				
+					<div class="row">
+						<div class="col s12 m4">
+						<article>
+								<div class="gallery-thumbnail">
+									<a href="">
+											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/11/Ideias-criativas-de-nomes-para-loja-de-roupas-360x180.webp" alt="">
+									</a>
+								
+									<div class="over-legend">
+										<div class="post-category">
+											<a href="">Category</a>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="gallery-post-info">
+									<h4 >
+										<a href="">Ideias criativas de nomes para loja de roupas</a>
+									</h4>
+									<div class="gallery-post-data">
+									<a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="tiny material-icons">access_time</i> 1 de dezembro de 2022</a>
+									</div>
+								</div>
+						</article>
+						</div>
+						<div class="col s12 m4">
+						<article>
+								<div class="gallery-thumbnail">
+									<a href="">
+											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/11/Ideias-criativas-de-nomes-para-loja-de-roupas-360x180.webp" alt="">
+									</a>
+								
+									<div class="over-legend">
+										<div class="post-category">
+											<a href="">Category</a>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="gallery-post-info">
+									<h4 >
+										<a href="">Ideias criativas de nomes para loja de roupas</a>
+									</h4>
+									<div class="gallery-post-data">
+									<a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="tiny material-icons">access_time</i> 1 de dezembro de 2022</a>
+									</div>
+								</div>
+						</article>
+						</div>
+						<div class="col s12 m4">
+						<article>
+								<div class="gallery-thumbnail">
+									<a href="">
+											<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/11/Ideias-criativas-de-nomes-para-loja-de-roupas-360x180.webp" alt="">
+									</a>
+								
+									<div class="over-legend">
+										<div class="post-category">
+											<a href="">Category</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="gallery-post-info">
+									<h4 >
+										<a href="">Ideias criativas de nomes para loja de roupas</a>
+									</h4>
+									<div class="gallery-post-data">
+									<a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="tiny material-icons">access_time</i> 1 de dezembro de 2022</a>
+									</div>
+								</div>
+						</article>
+						</div>
+					</div>
+
+
 				</div>
 		</section>
 
 
 <style>
-	.section-como-vender nav{
+	.category-post-cards nav{
 		background-color: #ffffff;
 	}
 
-	.section-como-vender nav .breadcrumb{
+	.category-post-cards nav .breadcrumb{
 		font-size: 14px;
 		color: black;
 	}
 
-	.section-como-vender nav .breadcrumb::before{
+	.category-post-cards nav .breadcrumb::before{
 		font-size: 16px;
 		color: #a0a0a0;
 		vertical-align: middle;
 		margin: 0 5px 0 0px;
 	}
 
-	.section-como-vender nav .breadcrumb:last-child{
+	.category-post-cards nav .breadcrumb:last-child{
 		color: #a0a0a0;
 	}
 
