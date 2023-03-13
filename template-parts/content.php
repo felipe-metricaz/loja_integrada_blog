@@ -8,56 +8,30 @@
  */
 
 ?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
-
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				loja_integrada_blog_posted_on();
-				loja_integrada_blog_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<?php loja_integrada_blog_post_thumbnail(); ?>
-
-	<div class="entry-content">
-		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'loja_integrada_blog' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				wp_kses_post( get_the_title() )
-			)
-		);
-
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'loja_integrada_blog' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
+<article>
+    <div class="gallery-thumbnail">
+        <a href="">
+                <img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/11/Ideias-criativas-de-nomes-para-loja-de-roupas-360x180.webp" alt="">
+        </a> 
+        <div class="over-legend">
+            <div class="post-category">
+                <a href="">Category</a>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-post-info">
+        <h4>
+            <a href="">Ideias criativas de nomes para loja de roupas</a>
+        </h4>
+        <div class="gallery-post-data">
+           <a href="https://blog.lojaintegrada.com.br/ideias-criativas-de-nomes-para-loja-de-roupas/"><i class="tiny material-icons">access_time</i> 1 de dezembro de 2022</a>
+        </div>
+    </div>
+    <?php if (is_search() or is_404()): ?>
+    <div class="entry-content">
+    	<p>
+    		Se você possui um ecommerce, provavelmente já deve ter ouvido falar sobre o tópico acima. Esse serviço é oferecido por...
+    	</p>
 	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php loja_integrada_blog_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+    <?php endif ?>
+</article>

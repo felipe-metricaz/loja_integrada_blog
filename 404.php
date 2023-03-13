@@ -9,52 +9,49 @@
 
 get_header();
 ?>
-
-	<main id="primary" class="site-main">
-
+<div class="site-main container row">
+	<main id="primary" class="col s12 m8 no-padding-left">
+		<div id="breadcrumbs">
+			<span class=""><a href="https://blog.lojaintegrada.com.br">Home</a></span>
+			<i class="fa fa-angle-right"></i>
+			<span class="breadcrumb_last_link"><a href="">Page Not Found</a></span>
+    	</div>
 		<section class="error-404 not-found">
 			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'loja_integrada_blog' ); ?></h1>
+				<h1 class="page-title">Página não encontrada</h1>
 			</header><!-- .page-header -->
 
 			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'loja_integrada_blog' ); ?></p>
+				<p>Parece que nada foi encontrado neste local. Talvez tente um dos links abaixo ou uma pesquisa?</p>
+				<?php get_search_form(); ?>
+				<div>
+				    <h2 class="title-label">Últimos Posts</h2>
+				    <div class="divider"></div>
+				    <div class="row">
+				    	<div class="col s12 m6">
+				    		<?php get_template_part( 'template-parts/content'); ?>
+				    	</div>
+				    	<div class="col s12 m6">
+				    		<?php get_template_part( 'template-parts/content'); ?>
+				    	</div>
+				    	<div class="col s12 m6">
+				    		<?php get_template_part( 'template-parts/content'); ?>
+				    	</div>
+				    	<div class="col s12 m6">
+				    		<?php get_template_part( 'template-parts/content'); ?>
+				    	</div>
+				    	
+				    </div>
 
-					<?php
-					get_search_form();
-
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
-
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'loja_integrada_blog' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories(
-								array(
-									'orderby'    => 'count',
-									'order'      => 'DESC',
-									'show_count' => 1,
-									'title_li'   => '',
-									'number'     => 10,
-								)
-							);
-							?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$loja_integrada_blog_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'loja_integrada_blog' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$loja_integrada_blog_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
+				</div>
 
 			</div><!-- .page-content -->
 		</section><!-- .error-404 -->
 
 	</main><!-- #main -->
-
+	<div class="site-main col s12 m4">
+		<?php get_sidebar(); ?>
+	</div>
+</div>
 <?php
 get_footer();

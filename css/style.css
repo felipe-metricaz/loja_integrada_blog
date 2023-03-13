@@ -69,8 +69,6 @@ h2{
     color: #371e56 !important;
 }
 
-
-
 .site-header {
     display: flex;
     top: -100px;
@@ -307,7 +305,58 @@ nav{
     font-size: 24px;
 }
 
+#breadcrumbs, #breadcrumbs a, #breadcrumbs strong{ 
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #53585c; 
+}
+#breadcrumbs .breadcrumb_last_link, #breadcrumbs .breadcrumb_last_link a{
+    color: #a0a0a0;
+    font-weight: normal;
+}
+.error404 .site-main{
+    padding-top: 30px;
+}
 
+.box_search{
+    background: #f7f7f7;
+    padding: 20px;    
+}
+.box_search form{
+    display: flex;
+}
+.box_search input{
+    display: inline-block;
+    flex-grow: 1;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+    padding: 7px 14px;
+    height: 40px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    max-width: 100%;
+    box-shadow: none;
+}
+.box_search button{
+    border: none;
+    border-radius: 0;
+    background: #371e56;
+    color: #fff;
+    padding: 0;
+    width: 60px;
+    line-height: 1;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0;
+}
 
 /*HOME*/
 .title-label{
@@ -326,12 +375,8 @@ nav{
     height: 2px;
     background-color: #eee;
 }
-article .gallery-thumbnail {
-    position: relative;
-    overflow: hidden;
-    line-height: 0;
-    border-radius: 6px;
-}
+
+
 .section-hero > .row .col{
     height: 410px;
     overflow: hidden;
@@ -348,8 +393,18 @@ article .gallery-thumbnail {
     max-height: 195px;
 }
 
-
-
+.section-hero article {
+    padding-bottom: 0;
+}
+article {
+    padding-bottom: 40px;
+}
+article .gallery-thumbnail {
+    position: relative;
+    overflow: hidden;
+    line-height: 0;
+    border-radius: 6px;
+}
 article .gallery-thumbnail.shadow:before {
     content: "";
     display: block;
@@ -410,6 +465,11 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
     font-weight: bold;
     font-size: 11px !important;
 }
+article .entry-content p{
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
 @media only screen and (max-width: 600px){
     .section-hero > .row .col{
         height: 165px;
@@ -447,10 +507,6 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
 
 /* QUERIDINHOS DO MOMENTO STYLES */
 
-
-.section-queridinhos article {
-    padding-bottom: 40px;
-}
 
 .gallery-thumbnail img{
     border-radius: 6px;
@@ -560,6 +616,11 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
 
 .section-materiais article img{
     width: 100%;
+    transition: scale .35s linear;
+}
+
+.section-materiais article:hover img{
+    scale: 1.2;
 }
 
 .section-materiais article .over-legend{
@@ -689,14 +750,6 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
 
 
 /*FIM?*/
-
-
-
-#breadcrumbs, #breadcrumbs a, #breadcrumbs strong{ 
-    font-size: 12px;
-    line-height: 18px;
-    color: #FFF; 
-}
 
 
 

@@ -1,4 +1,3 @@
-
 <section class="container section-jornada">
     <h2 class="li-roxo-text">Jornadas de aprendizado especiais para você</h2>
     <div class="row">
