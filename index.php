@@ -20,12 +20,16 @@ get_header();
 		<?php get_template_part( 'template-parts/section', 'hero'); ?>
 
 		<?php get_template_part( 'template-parts/section', 'queridinhos'); ?>
+
+        <?php get_template_part( 'template-parts/section', 'banner'); ?>
 		
 		<?php get_template_part( 'template-parts/section', 'materiais'); ?>
 
         <?php get_template_part( 'template-parts/section', 'jornada'); ?>
 
         <?php get_template_part( 'template-parts/section', 'all-content-ajax'); ?>
+
+        <?php get_template_part( 'template-parts/section', 'banner'); ?>
 
 	</main><!-- #main -->
 

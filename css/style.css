@@ -41,6 +41,7 @@ h2{
 .block-me{ display: block; }
 .fix-margin:before,.fix-margin:after{ content: ''; display: block; height: 1px; }
 .no-margin{ margin: 0; }
+.no-margin-top{ margin-top: 0; }
 .no-padding{ padding: 0 !important; }
 .no-padding-left{ padding-left: 0  !important; }
 .no-padding-right{ padding-right: 0  !important; }
@@ -511,21 +512,29 @@ article .gallery-thumbnail  .post-meta a, article .gallery-thumbnail  .post-meta
     padding-top: 40px;
 }
 
-.section-materiais .carousel .carousel-item {
+.section-materiais .row{
+    margin: 0 -0.75rem;
+    min-height: 300px;
+}
+
+.section-materiais .col {
+    padding-bottom: 15px;
+}
+
+.section-materiais .carousel-item {
     width: 360px;
     height: 257px;
 }
 
-
 .section-materiais article .gallery-thumbnail:before {
-content: "";
-display: block;
-position: absolute;
-top: 0; bottom: 0; left: 0; right: 0;
-background: linear-gradient(180deg,transparent 0,#000 65%,#000);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000",endColorstr="#000000",GradientType=0);
-opacity: .6;
-z-index: 2;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background: linear-gradient(180deg,transparent 0,#000 65%,#000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000",endColorstr="#000000",GradientType=0);
+    opacity: .6;
+    z-index: 2;
 }
 
 .carousel-nav{
@@ -539,6 +548,16 @@ z-index: 2;
     opacity: 1 !important;
 }
 
+
+.section-materiais article h2{
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 700;   
+}
+.section-materiais article .post-category + h2{
+    margin-top: 20px;
+}
+
 .section-materiais article img{
     width: 100%;
 }
@@ -548,11 +567,13 @@ z-index: 2;
     text-align: center;
 }
 
+
 .section-materiais .carousel-nav i{
     cursor: pointer;
     color: #fff;
     border: 2px solid #fff;
 }
+
 
 
 /* END MATERIAIS MAIS BAIXADOS */
