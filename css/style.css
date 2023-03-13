@@ -69,6 +69,13 @@ h2{
     color: #371e56 !important;
 }
 
+.active{
+    background-color: #371e56 !important;
+}
+
+.gray{
+    color: #a0a0a0 !important;  
+}
 
 
 .site-header {
