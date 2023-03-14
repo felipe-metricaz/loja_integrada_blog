@@ -361,21 +361,7 @@ get_header();
 
 
 <style>
-	.category-post-cards nav{
-		background-color: #ffffff;
-	}
-
-	.category-post-cards nav .breadcrumb{
-		font-size: 14px;
-		color: black;
-	}
-
-	.category-post-cards nav .breadcrumb::before{
-		font-size: 16px;
-		color: #a0a0a0;
-		vertical-align: middle;
-		margin: 0 5px 0 0px;
-	}
+	
 
 	.category-post-cards nav .breadcrumb:last-child{
 		color: #a0a0a0;

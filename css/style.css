@@ -565,7 +565,7 @@ article .entry-content p{
 /* END QUERIDINHOS DO MOMENTO */
 
 
-/* MATERIAIS MAIS VAIXADOS STYLES */
+/* MATERIAIS MAIS BAIXADOS STYLES */
 
 
 .section-materiais .container{
@@ -972,6 +972,28 @@ article.related figure img { width: 100%; }
     margin-right: 10px;
 }
 
+
+
+/* CATEGORY PAGE */
+
+
+.category-post-cards nav{
+    background-color: #ffffff;
+}
+
+.category-post-cards nav .breadcrumb{
+    font-size: 14px;
+    color: black;
+}
+
+.category-post-cards nav .breadcrumb::before{
+    font-size: 16px;
+    color: #a0a0a0;
+    vertical-align: middle;
+    margin: 0 5px 0 0px;
+}
+
+/* END CATEGORY PAGE */
 
 
 
