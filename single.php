@@ -13,9 +13,28 @@ get_header();
 	<main id="primary" class="site-main">
 
 	<section class="container-fluid single-hero-section">
-		<div class="parallax-container">
-			<div class="parallax"><img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/01/Lista-de-fornecedores-onde-comprar-objetos-de-decoracao-para-revender.png"></div>
-		</div>
+
+	
+			
+			<div class="parallax-container">
+
+				<div class="container single-hero-breadcrumb">
+					<nav>
+						<div class="nav-wrapper">
+							<div class="col s12 no-padding">
+								<a href="#!" class="breadcrumb">Home</a>
+								<a href="#!" class="breadcrumb">Categoria</a>
+								<a href="#!" class="breadcrumb">Marketing e Vendas</a>
+								<a href="#!" class="breadcrumb">Como vender nas redes sociais</a>
+							</div>
+						</div>
+					</nav>
+				</div>
+		
+				<div class="parallax">
+					<img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/01/Lista-de-fornecedores-onde-comprar-objetos-de-decoracao-para-revender.png">
+				</div>
+			</div>
 	</section>
 
 
@@ -76,6 +95,23 @@ get_header();
 	</main><!-- #main -->
 
 	<style>
+
+		.single-hero-breadcrumb nav{
+			background-color: transparent;
+
+		}
+
+		.single-hero-breadcrumb nav .breadcrumb{
+			font-size: 1rem;
+			color: white;
+		}
+
+		.single-hero-breadcrumb nav .breadcrumb::before{
+			color: white;
+			vertical-align: middle;
+			font-size: 1rem;
+		}
+
 		.single-content-section .single-info h1{
 			margin-top: -2.5em;
 			line-height: 1.3;
