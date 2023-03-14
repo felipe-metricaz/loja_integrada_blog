@@ -12,29 +12,85 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+	<section class="container-fluid single-hero-section">
+		<div class="parallax-container">
+			<div class="parallax"><img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/01/Lista-de-fornecedores-onde-comprar-objetos-de-decoracao-para-revender.png"></div>
+		</div>
+	</section>
 
-			get_template_part( 'template-parts/content', get_post_type() );
 
-			the_post_navigation(
-				array(
-					'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'loja_integrada_blog' ) . '</span> <span class="nav-title">%title</span>',
-					'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'loja_integrada_blog' ) . '</span> <span class="nav-title">%title</span>',
-				)
-			);
+	<section class="container single-content-section">
+	
+		<div class="row">
+			<div class="col m8 s12">
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+				<div class="single-info">
+					<h1><span>Fornecedores: onde comprar objetos de decoração para revender?</span></h1>
 
-		endwhile; // End of the loop.
-		?>
+					<div class="post-meta">
+						<a class="gray">por </a><a href="#">RAPHAEL SPAGNUOLO</a> <i class="tiny material-icons">access_time</i> <a class="gray" href="#">7 DE MARÇO DE 2023</a>
+					</div>
+				</div>
+
+				<div>
+
+
+					<p>Se você quer abrir uma loja virtual e não sabe onde encontrar objetos de decoração para revender, confira as dicas deste artigo.
+
+				Com as mudanças geradas pela pandemia nos últimos tempos, as pessoas têm passado mais tempo em casa, o que aumentou o consumo de itens de decoração. Afinal, a relação com o lar ficou mais íntima, priorizando o aconchego e a funcionalidade dos espaços.
+
+				Portanto, você, lojista, precisa conhecer e saber onde comprar objetos de decoração para revender.Esteja você iniciando um novo negócio ou expandindo sua área de atenção, é preciso entender a importância de encontrar bons fornecedores. Por isso, fizemos um post dedicado ao assunto. Confira!</p>
+
+					<h3>Por que é importante escolher bem onde comprar objetos de decoração para revender?</h3>
+
+
+					<p>Se você quer abrir uma loja virtual e não sabe onde encontrar objetos de decoração para revender, confira as dicas deste artigo.
+
+				Com as mudanças geradas pela pandemia nos últimos tempos, as pessoas têm passado mais tempo em casa, o que aumentou o consumo de itens de decoração. Afinal, a relação com o lar ficou mais íntima, priorizando o aconchego e a funcionalidade dos espaços.
+
+				Portanto, você, lojista, precisa conhecer e saber onde comprar objetos de decoração para revender.Esteja você iniciando um novo negócio ou expandindo sua área de atenção, é preciso entender a importância de encontrar bons fornecedores. Por isso, fizemos um post dedicado ao assunto. Confira!</p>
+
+					<h3>Por que é importante escolher bem onde comprar objetos de decoração para revender?</h3>
+
+
+					<p>Se você quer abrir uma loja virtual e não sabe onde encontrar objetos de decoração para revender, confira as dicas deste artigo.
+
+				Com as mudanças geradas pela pandemia nos últimos tempos, as pessoas têm passado mais tempo em casa, o que aumentou o consumo de itens de decoração. Afinal, a relação com o lar ficou mais íntima, priorizando o aconchego e a funcionalidade dos espaços.
+
+				Portanto, você, lojista, precisa conhecer e saber onde comprar objetos de decoração para revender.Esteja você iniciando um novo negócio ou expandindo sua área de atenção, é preciso entender a importância de encontrar bons fornecedores. Por isso, fizemos um post dedicado ao assunto. Confira!</p>
+
+					<h3>Por que é importante escolher bem onde comprar objetos de decoração para revender?</h3>
+
+				</div>						
+			
+			</div>
+
+			<div class="col m4 s12">
+			<? get_sidebar(); ?>
+			</div>
+	</section>
+
+	</div>
+
 
 	</main><!-- #main -->
 
+	<style>
+		.single-content-section .single-info h1{
+			margin-top: -2.5em;
+			line-height: 1.3;
+			font-size: 3em;
+			font-weight: bold;
+		}
+
+		.single-content-section .single-info span{
+			background: #fff;
+   		    box-shadow: 7px 0 0 #fff, -7px 0 0 #fff;
+		}
+
+	</style>
+
 <?php
-get_sidebar();
 get_footer();
+
+

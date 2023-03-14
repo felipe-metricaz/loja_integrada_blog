@@ -33,8 +33,8 @@
 
 
 	document.addEventListener('DOMContentLoaded', function() {
-		var elems = document.querySelectorAll('.carousel');
-		var instances = M.Carousel.init(elems,
+		var carousel = document.querySelectorAll('.carousel');
+		var instances = M.Carousel.init(carousel,
 		{
 			fullWidth: false,
 			numVisible: 3,
@@ -53,6 +53,14 @@
 	$('i#next-materiais').click(function() {
 		$('.carousel').carousel('next');
 	});
+
+
+
+	document.addEventListener('DOMContentLoaded', function() {
+		var paralax = document.querySelectorAll('.parallax');
+		var instances = M.Parallax.init(paralax);
+	  });
+
 
 
 }( jQuery ) );
