@@ -21,6 +21,11 @@ get_header();
 			<h1> <?php echo get_the_title() ?></h1>
 		</header>
 		<?php get_template_part( 'template-parts/section', 'hero-page'); ?>
+        <div id="breadcrumbs">
+            <span class=""><a href="https://blog.lojaintegrada.com.br">Home</a></span>
+            <i class="fa fa-angle-right"></i>
+            <span class="breadcrumb_last_link"><a href="">Page Not Found</a></span>
+        </div>
         <section class="container-fluid section-materiais">
             <div class="container">
                 <h2 class="no-margin-top li-roxo-text">Escolha um tema e aprenda ainda mais</h2>

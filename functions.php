@@ -141,6 +141,7 @@ function loja_integrada_blog_scripts() {
 	wp_enqueue_style( 'loja_integrada_blog-style-custom', get_template_directory_uri(). '/css/style.css', array('loja_integrada_blog-style'), _S_VERSION );
 
 	wp_enqueue_script( 'loja_integrada_blog-materialize-js', get_template_directory_uri() . '/js/materialize.min.js', array('jquery'), _S_VERSION, true );
+	wp_enqueue_script( 'loja_integrada_blog-sticky-js', get_template_directory_uri() . '/js/jquery.sticky-sidebar.min.js', array('jquery'), _S_VERSION, true );
 	wp_enqueue_script( 'loja_integrada_blog-init-js', get_template_directory_uri() . '/js/init.js', array('loja_integrada_blog-materialize-js'), _S_VERSION, true );
 
 

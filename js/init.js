@@ -1,14 +1,28 @@
 ( function( $ ) {
-
+	function isMobile(){
+		if(window.matchMedia("(max-width: 600px)").matches){
+             return true;
+	    }
+	    return false;
+	}
 	$( window ).scroll(function() {
-		var aTop = $('.site-header').height();
-		if($(this).scrollTop()>=aTop){
+		var navTop = $('.site-header').height();
+		if($(this).scrollTop()>=navTop){
 			$('.site-header').addClass('fixed');
+			$('body').addClass('nav-fixed');
 		} else {
 			$('.site-header').removeClass('fixed');
+			$('body').removeClass('nav-fixed');
 		}
-	});
 
+	});
+	if(!isMobile()){
+		$('.col-sidenav').height($('.site-main').height());
+		$('.widget-area').stickySidebar({
+			topSpacing: 60,
+			bottomSpacing: 60
+		});
+	}
 	$('.slider').slider({
 		'height': 442
 	});

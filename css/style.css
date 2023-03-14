@@ -19,6 +19,10 @@
     }
 }
 
+body.nav-fixed{
+    padding-top: 72px;
+}
+
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
     border-bottom: 1px solid #1db4c1;
     box-shadow: 0 1px 0 0 #1db4c1;  
@@ -324,7 +328,7 @@ nav{
     color: #a0a0a0;
     font-weight: normal;
 }
-.error404 .site-main{
+.error404 .site-main, .search .site-main{
     padding-top: 30px;
 }
 
@@ -755,6 +759,27 @@ article .entry-content p{
         margin: 10px 0;
     }
 }
+
+
+/*SIDEBAR*/
+.widget-area.fixed{
+    position: fixed;
+    bottom: 10px;
+}
+.widget-area .widget_media_image img{
+    width: 100%;
+}
+.widget + .widget {
+    border-top: 1px solid #eee;
+    padding-top: 1.5em;
+}
+.widget article .gallery-post-info h4 {
+    font-size: 14px;
+}
+.widget article .gallery-post-info{
+    margin-left: 10px;
+}
+
 
 
 

@@ -40,16 +40,31 @@ get_header();
 				    	<div class="col s12 m6">
 				    		<?php get_template_part( 'template-parts/content'); ?>
 				    	</div>
-				    	
+				    	<div class="col s12 m6">
+				    		<?php get_template_part( 'template-parts/content'); ?>
+				    	</div>
+				    	<div class="col s12 m6">
+				    		<?php get_template_part( 'template-parts/content'); ?>
+				    	</div>
+				    	<div class="col s12 m6">
+				    		<?php get_template_part( 'template-parts/content'); ?>
+				    	</div>
+				    	<div class="col s12 m6">
+				    		<?php get_template_part( 'template-parts/content'); ?>
+				    	</div>
+				    	<div class="col s12 m6">
+				    		<?php get_template_part( 'template-parts/content'); ?>
+				    	</div>
+				    	<div class="col s12 m6">
+				    		<?php get_template_part( 'template-parts/content'); ?>
+				    	</div>
 				    </div>
-
 				</div>
-
 			</div><!-- .page-content -->
 		</section><!-- .error-404 -->
 
 	</main><!-- #main -->
-	<div class="site-main col s12 m4">
+	<div class="col-sidenav col s12 m4">
 		<?php get_sidebar(); ?>
 	</div>
 </div>

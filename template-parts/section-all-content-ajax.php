@@ -8,7 +8,6 @@
                     <a href="">
                             <img src="https://lojaintegrada.wpenginepowered.com/wp-content/uploads/2022/11/Ideias-criativas-de-nomes-para-loja-de-roupas-120x86.webp" alt="">
                     </a>
-
                 </div>
                 <div class="gallery-post-info">
                     <h4 >
